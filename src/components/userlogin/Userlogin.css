@@ -23,4 +23,49 @@
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    width: 35rem;
+    height: 3.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    appearance: none;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    box-shadow: 1px 6px 4px rgb(172, 172, 172);
+}
+
+#username, #password {
+    margin-bottom: 1.7rem;
+}
+
+.forget-psw {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 0.5rem;
+    font-weight: 600;
+    color: #5596FF;
+}
+
+.contact-admin {
+    font-weight: 600;
+    color: rgb(43, 43, 43);
+}
+
+#login-btn {
+    width: 25rem;
+    height: 2.8rem;
+    background-color: #5596FF;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
 }

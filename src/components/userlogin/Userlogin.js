@@ -8,20 +8,20 @@ function Userlogin() {
             <div className='user-login'>
                 <div>
                     <form>
-                        <input type={'text'} placeholder={'Email address/Employee Id'} />
+                        <input type={'text'} placeholder={'Email address/Employee Id'} id="username" />
                         <p></p>
-                        <input type={'password'} placeholder={'Password'} />
+                        <input type={'password'} placeholder={'Password'} id="password" />
                         <p></p>
-                        <div>
+                        <div className='forget-psw'>
                             <a
                                 href='#'
                             >
                                 Forget password?
                             </a>
-                            <span>Contact Admin</span>
+                            <span className='contact-admin'>Contact Admin</span>
                         </div>
                     </form>
-                    <button>Log in</button>
+                    <button type='submit' id='login-btn'>Log in</button>
                 </div>
             </div>
         </>
